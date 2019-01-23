@@ -27,10 +27,10 @@ def product_array(array_integers):
 
 class TestSolution(unittest.TestCase):
 
-    def testHappyPath1(self):
+    def test1(self):
         self.assertEqual([120, 60, 40, 30, 24], product_array([1, 2, 3, 4, 5]))
 
-    def testHappyPath2(self):
+    def test2(self):
         self.assertEqual([2, 3, 6], product_array([3, 2, 1]))
 
     def testWithZeros(self):
